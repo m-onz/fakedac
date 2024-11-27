@@ -1,0 +1,175 @@
+
+* {
+  color: white;
+/*   font-size: 1.1em; */
+}
+
+.bg-zinc-50\/90 {
+    background-color: #5e5e5e;
+}
+
+textarea {
+    background: black;
+}
+
+input, label {
+  background: black!important;
+  color: white!important;
+}
+
+#fakedac-logo {
+  width: 33%;
+  margin: auto;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /*transform: translateZ(0);*/
+}
+
+html {
+    background: black;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    /*will-change: transform;*/
+    color:white;
+/*     background: rgba(0, 0, 0, 0.7); */
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 11px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #000000bd;
+
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-size: 0.5em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000c4;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #3fc0b5;
+    color: black;
+}
+.content {
+    flex: 1;
+    padding: 2rem;
+    transform: translateZ(0);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.projects, .conference, .services, .team, .f-risk {
+    background-color: #0000004a;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+}
+.team img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem 1rem;
+    border-top: 3px solid turquoise;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 1rem 0;
+}
+.footer-column h3 {
+    margin-bottom: 1rem;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+a, h1, h2, h3, h4, h5 {
+    color: turquoise;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .footer-column {
+        flex: 100%;
+        text-align: center;
+    }
+}
+::selection {
+  background-color: turquoise;
+  color: black;
+}
+p {
+  color: white;
+}
