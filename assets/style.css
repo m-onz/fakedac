@@ -5,12 +5,12 @@
 }
 
 ul.nav {
-    text-align: center;
+/*     text-align: center; */
 }
 
 ul.nav li a {
     background: black;
-    padding: 1em;
+/*     padding: 1em; */
     color: white;
     font-weight: 800;
 }

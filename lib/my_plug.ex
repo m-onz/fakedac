@@ -75,6 +75,18 @@ defmodule Fakedac.MyPlug do
     render(conn, "events.html", assigns: %{events: @events})
   end
 
+  get "/about" do
+    render(conn, "about.html", [])
+  end
+
+  get "/contact" do
+    render(conn, "contact.html", [])
+  end
+
+  get "/media" do
+    render(conn, "media.html", [])
+  end
+
   get "/events/:file" do
     # file = Path.join(@template_dir, "/events/#{file}.md")
     case FileSanitizer.sanitize_filename(file) do
