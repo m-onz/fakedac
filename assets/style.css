@@ -4,6 +4,17 @@
 /*   font-size: 1.1em; */
 }
 
+ul.nav {
+    text-align: center;
+}
+
+ul.nav li a {
+    background: black;
+    padding: 1em;
+    color: white;
+    font-weight: 800;
+}
+
 .bg-zinc-50\/90 {
     background-color: #5e5e5e;
 }
