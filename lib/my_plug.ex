@@ -60,6 +60,8 @@ defmodule Fakedac.MyPlug do
       )
     )
 
+  IO.puts(@events)
+
   plug Plug.Static,
     at: "/assets",
     from: Path.expand("./assets")

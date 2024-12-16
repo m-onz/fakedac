@@ -5,7 +5,7 @@
 }
 
 ul.nav {
-/*     text-align: center; */
+    text-align: center;
 }
 
 ul.nav li a {
@@ -13,6 +13,7 @@ ul.nav li a {
 /*     padding: 1em; */
     color: white;
     font-weight: 800;
+    font-size: 2em;
 }
 
 .bg-zinc-50\/90 {
